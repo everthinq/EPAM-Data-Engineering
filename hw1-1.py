@@ -28,7 +28,7 @@ def create_hardlinks(path):
     for file1, file2 in combinations(files_list, 2):
         if cmp(join(path, file1), join(path, file2)):
             remove(join(path, file1))
-            link(join(path, file2), join(path, file1))
+            link(join(path, file1), join(path, file2))
 
 
 def main(path):
