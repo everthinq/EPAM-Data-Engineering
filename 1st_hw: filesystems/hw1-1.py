@@ -35,6 +35,9 @@ def main(path):
     '''
     How to run:
         python3 hw1-1.py /absolute/path/to/the/folder
+
+    This program was tested on actual movies: 9.2GBx2 and 732MBx3 samples.
+    Worked smoothly in less than a minute. Check hw1-1.*.jpg screenshot.
     '''
     create_hardlinks(path)
 
